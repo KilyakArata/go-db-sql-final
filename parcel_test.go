@@ -56,8 +56,6 @@ func TestAddGetDelete(t *testing.T) {
 	require.NoError(t, err)
 	assert.Equal(t, parcelTest, parcel)
 
-	// delete
-	// удалите добавленную посылку, убедитесь в отсутствии ошибки
 	err = store.Delete(id)
 
 	require.NoError(t, err)
