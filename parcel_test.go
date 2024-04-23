@@ -58,7 +58,6 @@ func TestAddGetDelete(t *testing.T) {
 
 	// delete
 	// удалите добавленную посылку, убедитесь в отсутствии ошибки
-	// проверьте, что посылку больше нельзя получить из БД
 	err = store.Delete(id)
 
 	require.NoError(t, err)
