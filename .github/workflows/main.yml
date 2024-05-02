@@ -1,4 +1,4 @@
-name: final_main_on_push
+name: ci_cd
 on: push
 jobs:
   test:
